@@ -1,0 +1,53 @@
+{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+h1{
+    text-align:center;
+    color:rgb(167, 199, 213);
+    padding: 20px;
+}
+nav{
+    background-color:rgb(40, 76, 98);
+    display: grid;
+    place-items: center;
+}
+nav ul{
+    list-style-type: none;;;
+}
+nav ul a{
+    display: inline-block;
+    padding: 20px;
+    text-decoration: none;
+    color:#000;
+    font-size: 18px;
+}
+nav ul a:hover{
+    bacground-color:rgb(36, 50, 100);
+    color:white;
+}
+
+.items{
+    display:grid;
+    padding: 30px 20px;
+    grid-column-gap: 20px;
+    grid-row-gap: 30px;
+}
+.item img{
+    width: 300px;
+    height:300px
+    cursor:pointer;
+}
+.item img:hover{
+    transform: scale(1.04);
+}
+.item button{
+    background-color: rgb(213, 125, 125);
+    color:white;
+}
+
+.footer-content{
+
+}
